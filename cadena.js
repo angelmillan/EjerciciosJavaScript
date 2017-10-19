@@ -21,7 +21,7 @@ function procesarCadena(valorCadena){
 	esPalindromo      : function() { return _cadena === this.cadenaAlReves();}
 
   };
-  // coño
+
 }
 
 
