@@ -19,8 +19,9 @@ function procesarCadena(valorCadena){
 	cadenaEnMayuscula : function() { return _cadena.toUpperCase(); },
 	cadenaAlReves     : function() { return _cadena.split('').reverse().join(''); },
 	esPalindromo      : function() { return _cadena === this.cadenaAlReves();}
-						
+
   };
+  // coño
 }
 
 
@@ -31,15 +32,3 @@ console.log("La cadena " + cadena + " ¿es un número? "  + cadena1.cadenaEsNume
 console.log("La cadena " + cadena + " en mayúscula  "  + cadena1.cadenaEnMayuscula());
 console.log("La cadena " + cadena + " al revés  "  + cadena1.cadenaAlReves());
 console.log("La cadena " + cadena + " ¿es palíndromo? "  + cadena1.esPalindromo());
-
-
-
-
-
-
-
-
-
-
-
-
